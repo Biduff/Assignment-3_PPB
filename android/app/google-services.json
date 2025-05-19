@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396925257081",
+    "project_id": "test-firebase-dcc7d",
+    "storage_bucket": "test-firebase-dcc7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396925257081:android:4d5bd6470fa5eefc581ba8",
+        "android_client_info": {
+          "package_name": "com.example.test_firewall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi-9c2gIR0POK178fYS0zhX19a3bBUZ3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
