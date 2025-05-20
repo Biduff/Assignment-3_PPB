@@ -16,7 +16,7 @@ In this project I applied awesome notification in a basic CRUD function using fi
 ![image](https://github.com/user-attachments/assets/d9615489-ab72-4f08-8627-1a8bcec79ceb)
 
 ### The notification will pop up every time the user add, update, or delete data.
-##1. Add User
+## 1. Add User
 ```
 Future<void> _addNote() async {
     final title = _titleController.text.trim();
@@ -45,7 +45,7 @@ Future<void> _addNote() async {
 ```
 ![image](https://github.com/user-attachments/assets/56266640-132f-4f60-af15-b95d9ff8b30a)
 
-##2. Update User
+## 2. Update User
 ```
   Future<void> _editNote(String id, Map<String, dynamic> oldData) async {
     final titleCtrl = TextEditingController(text: oldData['title']);
@@ -97,7 +97,7 @@ Future<void> _addNote() async {
 ```
 ![image](https://github.com/user-attachments/assets/82db8414-e539-4b62-badd-57b4eabf71b3)
 
-##3. Delete User
+## 3. Delete User
 ```
   Future<void> _deleteNote(String id, String title) async {
     await _notesCollection.doc(id).delete();
